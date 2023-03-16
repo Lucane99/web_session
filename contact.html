@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Form</title>
+  </head>
+
+  <body>
+    <form action="mailto:rabyn900@gmail.com?subject=hello" method="post" style="width: 40%;" enctype="text/plain">
+      <fieldset>
+        <legend>Form</legend>
+
+        <p>
+        <h2>Select your gender</h2>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        </p>
+        <p>
+        <h2>Select Hobbies</h2>
+        <label for="dance">Dance</label>
+        <input type="checkbox" id="dance" name="dance" value="dance">
+        <label for="sing">Sing</label>
+        <input type="checkbox" id="sing" name="sing" value="sing" checked>
+        <input type="checkbox" id="sing" name="sing" value="sing"><input type="checkbox" id="dance" name="dance"
+          value="dance">
+        <label for="fav">Favourite</label>
+        <select name="fav" id="fav">
+          <optgroup label="Iced Coffee">
+            <option value="iced">Iced lattee</option>
+            <option value="iced tea">Iced tea</option>
+          </optgroup>
+          </option>e="latte">latte</option>
+          <option value="mocha">mocha</option>
+          <option value="cappucinno" selected>cappucinno</option>
+          <option value="expresso">expresso</option>
+        </select>
+        <input type="checkbox" id="sing" name="sing" value="sing">
+        <input type="checkbox" id="sing" name="sing" value="sing">
+        </p>
+        <p>
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date">
+        </p>
+        <p>
+          <label for="image">Select File</label>
+          <input type="file" accept="image/*" name="image" id="image">
+        </p>
+        <p>
+          <label for="text">Message</label>
+          <br>
+          <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+      </fieldset>
+    </form>
+
+  </body>
+
+</html>
